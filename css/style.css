@@ -15,6 +15,7 @@ nav {
     align-items: center;
     background-color: rgb(109, 100, 208);
     padding: 0 5%;
+    border-bottom: 1px solid rgb(43, 39, 79);
 }
 
 nav h2 {
