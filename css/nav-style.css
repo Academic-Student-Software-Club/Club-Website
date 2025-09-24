@@ -60,3 +60,18 @@ nav ul li a:hover {
     color: rgb(109, 100, 208);
 }
 
+.socials li {
+    padding-left: 1vw;
+}
+
+.socials li a {
+    padding: 0 0;
+}
+
+.socials a:hover {
+    background-color: transparent;
+}
+
+nav ul img {
+    height: 2.5vw;
+}
