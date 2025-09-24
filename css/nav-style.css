@@ -60,39 +60,3 @@ nav ul li a:hover {
     color: rgb(109, 100, 208);
 }
 
-.socials li {
-    padding-left: 1vw;
-}
-
-.socials li a {
-    padding: 0 0;
-}
-
-.socials a:hover {
-    background-color: transparent;
-}
-
-nav ul img {
-    height: 2.5vw;
-}
-
-main {
-    background-image: url("../images/academic-west.jpg");
-    /* background-size: cover;
-    background-position: center; */
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-main h1 {
-    color: rgb(228, 228, 228);           /* text color */
-    font-size: 4em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 2px 2px 5px black;
-    word-wrap: break-word;
-    text-align: left;
-}
