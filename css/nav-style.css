@@ -15,28 +15,29 @@ nav {
     align-items: center;
     background-color: rgb(109, 100, 208);
     padding: 0 5%;
-    border-bottom: 1px solid rgb(43, 39, 79);
+    /* border-bottom: 1px solid rgb(43, 39, 79); */
 }
 
 nav h2 {
     /* background-color: green; */
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 nav ul {
     display: flex;
     list-style: none;
     /* background-color: blueviolet; */
-    height: 5vw;
-    padding-left: 4vw;
+    height: 3vw;
+    padding-left: 15vw;
     justify-content: center;     /* center a horizontally */
     align-items: center;        /* center a vertically */
 }
 
 nav ul li {
-    flex: 1;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
     /* background-color: rgb(175, 185, 35); */
     /* padding-left: 1px; */
 }
@@ -46,10 +47,10 @@ nav ul li a {
     color: #000000;
     display: block;
     text-align: center;
-    padding: 2vw 2.5vw;
+    padding: 1vw 1.5vw;
     /* background-color: rgb(107, 121, 138); */
     align-items: center;
-    font-size: 1.5vw;
+    font-size: 20px;
     font-weight: bold;
     /* border: 1px solid rgb(37, 37, 37); */
     border-radius: 4px;
@@ -58,6 +59,11 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgb(43, 39, 79);
     color: rgb(109, 100, 208);
+}
+
+.socials {
+    padding-left: 10vw;
+    /* background-color: antiquewhite; */
 }
 
 .socials li {
