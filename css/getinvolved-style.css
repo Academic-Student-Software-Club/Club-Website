@@ -1,0 +1,29 @@
+.top {
+    display: flex;
+}
+
+.intro {
+    padding: 10vh 10vw 5vh 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* background-color: #51aafa; */
+    background-image: linear-gradient(to bottom, #3f349a, #51aafa);
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.join {
+    width: 100%;
+    display: flex;
+}
+
+.join-section {
+    flex: 3;
+    background-color:blueviolet;
+}
+
+.join-button{
+    flex: 1;
+    background-color:darkgreen;
+}
