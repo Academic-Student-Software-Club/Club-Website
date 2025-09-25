@@ -10,10 +10,12 @@ nav {
     left: 0;
     width: 100%;
     margin: 0px;
+    height: 5vw;
 
     display: flex;
     align-items: center;
-    background-color: rgb(109, 100, 208);
+    /* background-color: rgb(109, 100, 208); */
+    background-color: #3f349a;
     padding: 0 5%;
     /* border-bottom: 1px solid rgb(43, 39, 79); */
 }
@@ -80,4 +82,9 @@ nav ul li a:hover {
 
 nav ul img {
     height: 2.5vw;
+}
+
+#nav_subset {
+    height: 5vw;
+    background-color: #3f349a;
 }
