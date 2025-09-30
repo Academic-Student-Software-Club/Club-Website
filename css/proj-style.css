@@ -1,5 +1,6 @@
 main {
-    background-image: linear-gradient(to bottom, #3f349a, #09131d);
+    /* background-image: linear-gradient(to bottom, #3f349a, #bdcad7); */
+    background-image: linear-gradient(to bottom, #3f349a, #51aafa);
     height: 80vh;
 }
 
@@ -12,7 +13,8 @@ main h1 {
 
 #post_main {
     height: 30vh;
-    background-color: #09131d;
+    /* background-color: #bdcad7; */
+    background-image: linear-gradient(to bottom, #51aafa, #bdcad7);
 }
 
 #projects_board {
@@ -35,7 +37,7 @@ main h1 {
 #projects_board section {
     
     display: block;
-    background-color: rgb(27, 27, 27);
+    background-color: #bdcad7;
     width: 22.5vw;
     height: 15vw;
     border-radius: 5px;
@@ -44,12 +46,12 @@ main h1 {
 }
 
 #projects_board section h3 {
-    color: #3287d1;
+    color: #235f94;
     font-size: 25px;
 }
 
 #projects_board section:hover {
-    box-shadow: 0 12px 12px rgba(0,0,0,1);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.5);
     width: 23vw;
     height: 15.5vw;
 }
@@ -70,5 +72,23 @@ main h1 {
 #projects_board section p {
     /* float: left; */
     font-size: 20px;
-    color: #3287d1;
+    color: #235f94;
+}
+
+.modal {
+    z-index: 20;
+    display: none;
+    position: fixed;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
 }

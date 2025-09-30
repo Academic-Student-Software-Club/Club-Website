@@ -16,6 +16,7 @@ nav {
     /* background-color: rgb(109, 100, 208); */
     background-color: #3f349a;
     padding: 0 5%;
+    z-index: 10;
 }
 
 nav h2 {
