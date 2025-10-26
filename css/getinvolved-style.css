@@ -10,45 +10,51 @@
     /* background-color: #51aafa; */
     background-image: linear-gradient(to bottom, #3f349a, #51aafa);
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
-.join {
+.win {
     width: 100%;
     display: flex;
-    flex-direction: column;
     gap: 10px;
-    background-color: rgba(255, 255, 255, 0.612);
-    border-radius: 3px;
+    background-color: rgb(207, 222, 255);
+    border-radius: 20px;
     padding: 10px;
+    margin: 0;
 }
 
 .join-section {
     flex: 3;
-}
-
-.join-section p{
-    text-align: center;
-    font-size: 24px;
-}
-
-
-/* make all of the botton section below the line the button instead of only one section being the button */
-.join-button{
-    flex: 1;
-    width: fit-content;
-    margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    margin: 0;
+}
+
+
+.big, .little {
+    margin: 0;
+}
+
+.big{
+    font-family: "Verdana", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.little {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.join-button{
+    display: inline-flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: rgb(224, 224, 224);
-    border-radius: 5px;
-    overflow: hidden;
-    border: 2px solid rgb(224, 224, 224);
-}
-
-.join-button:hover{
-    border: 2px solid rgb(168, 168, 168);
 }
 
 .join-button a{
@@ -57,9 +63,15 @@
     padding: 15px 24px;
     font-size: 20px;
     font-weight: bold;
+    border: 2px solid rgb(173, 172, 172);
+    border-radius: 20px;
 }
 
-.join hr{
+.join-button a:hover{
+    border-color: rgb(81, 77, 77);
+}
+
+.win hr{
     height: 1px;
     width: 100%;
 }
