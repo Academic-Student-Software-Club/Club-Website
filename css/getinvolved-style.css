@@ -16,14 +16,58 @@
 .join {
     width: 100%;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.612);
+    border-radius: 3px;
+    padding: 10px;
 }
 
 .join-section {
     flex: 3;
-    background-color:blueviolet;
 }
 
+.join-section p{
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/* make all of the botton section below the line the button instead of only one section being the button */
 .join-button{
     flex: 1;
-    background-color:darkgreen;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid rgb(224, 224, 224);
+}
+
+.join-button:hover{
+    border: 2px solid rgb(168, 168, 168);
+}
+
+.join-button a{
+    text-decoration: none;
+    color: #000000;
+    padding: 15px 24px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.join hr{
+    height: 1px;
+    width: 100%;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #595959;
+    margin: 8px 0;
 }
