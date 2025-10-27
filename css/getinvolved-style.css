@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    background-image: linear-gradient(to bottom, #3f349a, #51aafa);
+    background-image: linear-gradient(to bottom, #0069d1, #51aafa);
     justify-content: center;
     padding-top: 86px;
 }
