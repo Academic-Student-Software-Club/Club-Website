@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    background-image: linear-gradient(to bottom, #0069d1, #51aafa);
+    background-image: linear-gradient(to bottom, var(--bg), #51aafa);
     justify-content: center;
     padding-top: 86px;
 }
@@ -16,7 +16,7 @@
     width: 100%;
     display: flex;
     gap: 10px;
-    background-color: rgb(207, 222, 255);
+    background-color: var(--brand);
     border-radius: 20px;
     flex-direction: column;
     padding: 20px;

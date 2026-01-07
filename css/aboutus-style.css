@@ -9,13 +9,13 @@
     gap: 10px;
     /* background-color: #51aafa; */
     /* background-image: linear-gradient(to bottom, #3f349a, #51aafa); */
-    background-image: linear-gradient(to bottom, #0069d1, #51aafa);
+    background-image: linear-gradient(to bottom, var(--bg), #51aafa);
     justify-content: center;
     padding-top: 85px;
 }
 
 .intro div {
-    background-color: rgb(207, 222, 255);
+    background-color: var(--brand);
     width: 75vw;
     padding: 5vh 2.5vw 5vh 2.5vw;
     border-radius: 20px;
@@ -50,12 +50,12 @@
 }
 
 #gradient1 {
-    background-image: linear-gradient(to bottom, #51aafa, rgb(207, 222, 255));
+    background-image: linear-gradient(to bottom, #51aafa, var(--brand));
     height: 100px;
 }
 
 .roster {
-    background-color: rgb(207, 222, 255);
+    background-color: var(--brand);
     height: auto;
     padding-bottom: 20vh;
 }
@@ -84,7 +84,7 @@
 }
 
 .officers section {
-    background-color: rgb(253, 255, 243);
+    background-color: white;
     display: flex;
     flex-direction: column;
     margin: 0 0;

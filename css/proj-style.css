@@ -1,6 +1,6 @@
 main {
     /* background-image: linear-gradient(to bottom, #3f349a, #bdcad7); */
-    background-image: linear-gradient(to bottom, #0069d1, #51aafa);
+    background-image: linear-gradient(to bottom, var(--bg), #51aafa);
     height: 80vh;
 }
 
@@ -14,7 +14,7 @@ main h1 {
 #post_main {
     height: 30vh;
     /* background-color: #bdcad7; */
-    background-image: linear-gradient(to bottom, #51aafa, #bdcad7);
+    background-image: linear-gradient(to bottom, #51aafa, var(--brand));
 }
 
 #projects_board {
@@ -37,7 +37,7 @@ main h1 {
 #projects_board section {
     
     display: block;
-    background-color: #bdcad7;
+    background-color: var(--brand);
     width: 22.5vw;
     height: 15vw;
     border-radius: 5px;
